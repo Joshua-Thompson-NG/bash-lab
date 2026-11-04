@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-echo "I pratice with this file"
+for file in  *.sh; do
+	echo "Processing $file"
+done
