@@ -22,14 +22,14 @@ log_warn() {
         local msg="$1"
         local ts
         ts=$(get_timestamp)
-        printf "${COLOR_YELLOW}[%s] [INFO]${COLOR_RESET} %s\n" "$ts" "$msg" >&2
+        printf "${COLOR_YELLOW}[%s] [WARN]${COLOR_RESET} %s\n" "$ts" "$msg" >&2
 }
 
 log_error() {
         local msg="$1"
         local ts
         ts=$(get_timestamp)
-        printf "${COLOR_RED}[%s] [INFO]${COLOR_RESET} %s\n" "$ts" "$msg" >&2
+        printf "${COLOR_RED}[%s] [ERROR]${COLOR_RESET} %s\n" "$ts" "$msg" >&2
 }
 
 die() {
