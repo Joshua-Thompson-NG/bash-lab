@@ -1,0 +1,8 @@
+# Production Web Servers
+google.com
+cloudflare.com
+
+# Local & Unreachable Test Hosts
+127.0.0.1
+192.0.2.1
+invalid.host.local
