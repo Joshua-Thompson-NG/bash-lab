@@ -1,0 +1,9 @@
+# Server Configuration File
+server_name = ://example.com
+port = 8080
+status = online
+
+# Database Settings
+db_host = localhost
+db_port = 5432
+status = online

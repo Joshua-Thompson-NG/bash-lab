@@ -1,0 +1,7 @@
+ID,Name,Department,Salary,Status
+101,Alice,Engineering,95000,Active
+102,Bob,Marketing,62000,Active
+103,Charlie,Engineering,105000,OnLeave
+104,Diana,Sales,78000,Active
+105,Evan,Marketing,58000,Inactive
+106,Fiona,Sales,84000,Active
