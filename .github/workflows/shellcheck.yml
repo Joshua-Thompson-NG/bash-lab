@@ -46,4 +46,4 @@ jobs:
           fi
 
           printf 'Checking: %s\n' "${files[@]}"
-          shellcheck "${files[@]}"
+          shellcheck -x "${files[@]}"
